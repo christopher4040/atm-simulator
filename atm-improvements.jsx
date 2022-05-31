@@ -6,7 +6,6 @@ const ATMDeposit = ({ onChange, isDeposit, validTransaction }) => {
   console.log(`ATM isValid: ${isValid}`);
   return (
     <div className="mt-5">
-      {/* <h3> {choice[Number(!isDeposit)]}</h3> */}
       <h6 className="card-subtitle mb-2 text-muted">Select the amount to {choice[Number(!isDeposit)].toLowerCase()}</h6>
       <div className="input-group mb-3">
         <input id="number-input" type="number" min={0} class="form-control w-50" onChange={onChange} placeholder="$0.00" aria-label="Select amount" aria-describedby="btnSubmit"/>
@@ -93,5 +92,5 @@ const Account = () => {
     </form>
   );
 };
-// ========================================
+
 ReactDOM.render(<Account />, document.getElementById('root'));
