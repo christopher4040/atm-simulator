@@ -7,6 +7,9 @@ This is a simulator of an ATM machine which accept deposit and withdraw (if enou
 - Create a list of the transactions made
 - Responsive design
 
+## To Run
+Visit [ATM-Simulator](https://www.chma.dev/atm-simulator) to view this project on your browser.
+
 ## License
 MIT License
 
