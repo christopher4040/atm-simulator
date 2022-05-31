@@ -1,7 +1,10 @@
 # ATM Simulator
 
 ## Description
-This is a simulator of an ATM machine which accept deposit and withdraw (if enough balance is available).
+  - ATM Simulator using ReactJS.
+  - Used Bootstrap for the design.
+  - Validates the amount to be deposited that must be greater than 0.
+  - Validates the amount to be withdrawn that must be greater that 0 and less or equal to the balance.
 
 ## Roadmap
 - Create a list of the transactions made
